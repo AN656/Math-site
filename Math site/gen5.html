@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Вираз за темою: "формули скороченого множення"</h1>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Вираз за темою: "формули скороченого множення"</title>
+</head>
+<body>
+    <p><em><label id="genn5" class = "swipe_text">Тут буде вираз</label><label id="answer5" class = "swipe_text" hidden></label></em></p>
+    <input type="button" id="b5" value="Згенерувати" class = "button">
+    <p for="c5" class = "text" >Показувати відповідь<input type="checkbox" id="c5"></p>
+    <br>
+    <a href = "/index.html">Перейти до головної сторінки</a>
+    <script type = "module">
+        import {event,answer} from './Generator.js'
+        b5.onclick = function()
+        {
+            event(5);
+        }
+        c5.onclick = function()
+        {
+            answer(5);
+        }
+    </script>
+</body>
+</html>

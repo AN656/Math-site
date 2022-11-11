@@ -1,0 +1,157 @@
+body {
+ font-family: Roboto;
+ background-color: #23272a;
+ text-align: center;
+ color: lightBlue;
+ font-weight: bold;
+ font-size: 20px;
+}
+.head1{
+background-color: #778899;
+}
+h1 {
+padding: 10px;
+}
+.swipe_text {
+font-weight: 700;
+font-size: 28px;
+color: #8fffa0;
+}
+.text 
+{
+font-size: 27px;
+}
+
+.button 
+{
+ color: lightBlue;
+ background-color: #23272a;
+ font-size: 14px;
+ border: 2px solid bisque;
+border-radius: 50px/90px;
+cursor:pointer;
+margin-top: 11px;
+}
+
+.container{
+display: flex;
+flex-basis:100%:
+flex-direction: column;
+border: solid 0px lightblue;
+justify-content:center;
+align-items:flex-start;
+}
+
+a {
+ font-size: 23px;
+ display: inline-block;
+ color: #07ABEE;
+ padding: 10px, 0, 10px, 0;
+ margin: 10px, 0px, 10px, 0;
+}
+
+.cont1 {
+    border-bottom: solid 0px lightblue;
+}
+.menu_link{
+    color: inherit;
+    position: relative;
+    text-decoration: none;
+}
+.menu_link:hover{
+    color: inherit;
+}
+.menu_link:hover:before{
+    transform: scaleX(1.0);
+    transition-duration: 0.25s;
+}
+.menu_link:before{
+    content: '';
+    width: 100%;
+    height: 0px;
+    border-top: 2px solid; color: inherit;
+    position: absolute;
+    left: 0; bottom: -3px;
+    transform: scaleX(0);
+    transition-duration: 0.25s;
+}
+.green{
+    color: #06bf37;
+}
+.green:before{
+    content: 'клікай → ';
+    font-size: 14px;
+}
+.green:after{
+    content: ' ← клікай';
+    font-size: 14px;
+}
+.yellow{
+    color: #Daa520;
+}
+.yellow:before{
+    content: 'клікай → ';
+    font-size: 14px;
+}
+.yellow:after{
+    content: ' ← клікай';
+    font-size: 14px;
+}
+.red {
+    color: #dc143c;
+}
+.red:before{
+    content: 'клікай → ';
+    font-size: 14px;
+}
+.red:after{
+    content: ' ← клікай';
+    font-size: 14px;
+}
+
+.lastLinks {
+ color:#1434A4;
+}
+
+.square
+{
+margin-left: auto;
+margin-right: auto;
+width: 230px;
+height: 55px;
+border: solid red 0px;
+background-color: lightBlue;
+}
+footer {
+    display: inline;
+    align-items: center;
+}
+.foot {
+    background-color: #778899;
+}
+.img1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    width: 30px;
+    height: 20px;
+}
+.img2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    width: 30px;
+    height: 20px;
+}
+.cont1
+{
+    border-bottom: 1px solid #778899;    
+}
+.spisok{
+display: table;
+text-align:left;
+list-style:none;
+list-style-position:inside;
+margin: 0 auto;
+font-size: 23px;
+}

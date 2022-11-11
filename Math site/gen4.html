@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>Просте рівняння</h1>
+    <link rel="stylesheet" href="Style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Просте рівняння</title>
+</head>
+<body>
+    <p><em><label id="genn4" class = "swipe_text">Тут буде вираз</label><p><label id="answer4" class = "swipe_text" hidden></p></label></em></p>
+    <input type="button" id="b4" value="Згенерувати" class = "button">
+    <p for="c4" class = "text" >Показувати відповідь<input type="checkbox" id="c4"></p>
+    <br>
+    <a href = "/index.html">Перейти до головної сторінки</a>
+    <script type = "module">
+        import {event,answer} from './Generator.js'
+        b4.onclick = function()
+        {
+            event(4);
+        }
+        c4.onclick = function()
+        {
+            answer(4);
+        }
+    </script>
+</body>
+</html>
